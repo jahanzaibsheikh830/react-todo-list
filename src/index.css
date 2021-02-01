@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p{
+  margin: 0 !important;
+  padding: 0 !important;
+  
+}
+.form{
+  background-color:white;
+  border: 1px solid #d0d1d5;
+  border-radius:3px;
+  margin-bottom:10px;
+  padding: 12px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .30); /* Not original, just a test */
+}
+.time{
+  margin-top: -5px !important;
+  font-size: 14px;
+  margin-left: -45px !important;
+  color: #90949c;
+}
+.name{
+  margin-left: -45px !important;
+  color: #365899;
+  font-weight: bold;
+}
+.fb-card{
+  background-color:white;
+  border: 1px solid #d0d1d5;
+  border-radius:3px;
+  margin-bottom:10px;
+  padding: 12px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .30); /* Not original, just a test */
+}
+#main-card{
+  display: flex;
+  flex-direction: column-reverse;
+}
